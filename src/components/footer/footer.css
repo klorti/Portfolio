@@ -1,0 +1,55 @@
+/* For Footer.tsx */
+
+footer {
+  /* padding-block: 3.5rem; */
+  /* padding-inline: 12rem; */
+  /* background-color: #0a142f; */
+  /* font: 1rem sans-serif; */
+  /* color: #e6dfdf; */
+
+}
+
+.lower {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+
+  & nav {
+    /* column-gap: 2rem;
+    margin: 1rem; */
+  }
+
+  & h5 {
+    /* color: #e6dfdf; */
+  }
+}
+
+ul {
+  /* display: flex;
+  flex-direction: column;
+  padding: 0;
+  row-gap: 15px;
+  list-style: none; */
+
+}
+
+a {
+  /* text-decoration: none;
+  color: rgba(178, 183, 197, 0.959); */
+}
+
+
+.subscribeDiv {
+  /* padding-inline: 2rem; */
+  background-color: #434e646c;
+  /* width: 260px; */
+
+
+
+
+  & .styledInput::placeholder {
+    color: rgba(111, 112, 117, 0.959);
+    padding-left: 15px;
+    font-size: 14px;
+  }
+}
